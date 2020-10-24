@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/EstilosLogin.css">
+    <link rel="stylesheet" href="java/jquery.js">
+    <script src="java/jquery.js"></script>
+    
+    <script src="https://kit.fontawesome.com/21a77e99a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form class="formulario">
+        <h1>Registrate</h1>
+        <div class="contenedor">
+            <div class="imput-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo" required="" pattern="[a-zA-Z]+">
+            </div>
+            <div class="imput-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" required="">
+            </div>
+            <div class="imput-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input minlength="5" type="password" placeholder="Contraseña" required="">
+            </div> 
+            <div class="imput-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input minlength="5" type="password" placeholder="Repita Contraseña" required="">
+            </div> 
+            <input type="submit" value="Registrate" class="button">
+            <p>Al momento de registrarte,aceptas todas nuestras condiciones de uso y política de privacidad</p>
+            <p>¿Ya tienes una cuenta? <a class="link" href="loginvista.html">Iniciar sesión</a></p>
+        </div>
+    </form>
+</body>
+</html>
